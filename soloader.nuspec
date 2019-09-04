@@ -14,7 +14,7 @@
         <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/NAXAM/soloader-android-binding/</projectUrl>
-        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <copyright>Copyright (c) 2017-present NAXAM</copyright>
         <tags>xamarin, Xamarin.Android, soloader</tags>
         <dependencies>
             <!-- <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.4.0.2" /> -->
