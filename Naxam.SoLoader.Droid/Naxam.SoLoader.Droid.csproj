@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <NoWarn>CS0108,CS0109,CS0114,CS0618</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

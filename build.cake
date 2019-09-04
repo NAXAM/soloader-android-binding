@@ -24,7 +24,7 @@ var artifacts = new [] {
         ReleaseNotes = new string [] {
             string.Format("SoLoader for Android v{0}", VERSION)
         },
-        SolutionPath = "./soloader-android.sln",
+        SolutionPath = "./soloader-droid.sln",
         AssemblyInfoPath = "./Naxam.SoLoader.Droid/Properties/AssemblyInfo.cs",
         NuspecPath = "./soloader.nuspec",
         DownloadUrl = "https://repo1.maven.org/maven2/com/facebook/soloader/soloader/{0}/soloader-{0}.aar",
