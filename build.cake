@@ -11,7 +11,7 @@ var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
 
 var VERSION = "0.6.1";
-var NUGET_SUFIX = ".0";
+var NUGET_SUFIX = ".2";
 
 //////////////////////////////////////////////////////////////////////
 // PREPARATION
@@ -79,6 +79,7 @@ Task("Build")
         MSBuild(artifact.SolutionPath, settings => {
             settings.ToolVersion = MSBuildToolVersion.VS2019;
             settings.SetConfiguration(configuration);
+            settings.WithTarget("Rebuild");
         });
     }
 });
@@ -101,7 +102,7 @@ Task("Pack")
 //////////////////////////////////////////////////////////////////////
 
 Task("Default")
-    // .IsDependentOn("Downloads")
+    .IsDependentOn("Downloads")
     .IsDependentOn("UpdateVersion")
     .IsDependentOn("Build")
     .IsDependentOn("Pack");
